@@ -1,4 +1,6 @@
 # vue-hmt
+![npm](https://img.shields.io/npm/v/vue-hmt.svg?color=success&style=popout-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/vue-hmt.svg?style=popout-square)
+
 VUE百度统计插件
 > 项目参考：https://github.com/raychenfj/vue-uweb
 
