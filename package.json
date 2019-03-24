@@ -9,16 +9,15 @@
     "url": "https://github.com/wendygaoyuan/vue-hmt.git"
   },
   "keywords": [
-    "hmt",
-    "hmweb",
-    "vue-hmt",
-    "statistics",
-    "vue-plugin"
+    "hmt", "hmweb", "vue-hmt", "statistics", "vue-plugin"
   ],
   "bugs": {
     "url": "https://github.com/wendygaoyuan/vue-hmt/issues"
   },
   "homepage": "https://github.com/wendygaoyuan/vue-hmt#readme",
+  "files": [
+    "dist", "src"
+  ],
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -75,9 +74,5 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"]
 }
