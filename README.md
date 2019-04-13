@@ -1,5 +1,5 @@
 # vue-hmt
-![npm](https://img.shields.io/npm/v/vue-hmt.svg?color=success&style=popout-square) ![npm bundle size](https://img.shields.io/bundlephobia/min/vue-hmt.svg?style=popout-square)
+[![npm](https://img.shields.io/npm/v/vue-hmt.svg?color=success&style=popout-square)](https://www.npmjs.org/package/vue-hmt) [![npm bundle size](https://img.shields.io/bundlephobia/min/vue-hmt.svg?style=popout-square)](https://www.npmjs.org/package/vue-hmt) [![npm](https://img.shields.io/npm/dt/vue-hmt.svg?color=important&style=popout-square)](https://npmcharts.com/compare/vue-hmt?minimal=true)
 
 VUE百度统计插件
 > 项目参考：https://github.com/raychenfj/vue-uweb
@@ -80,9 +80,9 @@ this.$hmt.trackEvent('musicFile', 'download', 'Rolling In The Deep - Adele')
 使用指令 v-track-event 监听事件， 通过 argument 指定事件类型，将自动为绑定元素添加事件监听，当事件触发调用统计代码。 如不指定事件，默认监听 click 事件。
 ##### 用法
 ``` html
-<button v-track-event:click="'category, action, opt_label, opt_value''"></button>
+<button v-track-event:click="'category, action, opt_label, opt_value'"></button>
 ```
 ##### 举个栗子
 ``` html
-<button v-track-event:click="'musicFile, download, Rolling In The Deep - Adele''"></button>
+<button v-track-event:click="'musicFile, download, Rolling In The Deep - Adele'"></button>
 ```
